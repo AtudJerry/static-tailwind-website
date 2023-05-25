@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('../images/sunset-beach.jpg');
+.page-margin{
+    @apply lg:ml-20 lg:mr-20 text-center;
+}
+.card{
+    @apply  lg:ml-5 lg:mr-5 bg-gray-100 shadow-lg rounded overflow-hidden hover:shadow-2xl ;
+}
